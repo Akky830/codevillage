@@ -1,0 +1,63 @@
+.concept{
+    background: linear-gradient(to bottom, $ash 20%, #A1938689 80% );
+}
+.concept-img{
+    display: flex;
+    justify-content: space-between;
+    height: 41.3rem;
+    margin-top: 1.1rem;
+    @include sp{
+        height: 20.5rem;
+        margin-top: 5rem;
+    }
+    
+}
+.concept-img .concept-img1{
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    width: 65%;
+    @include sp{
+        width: 50%;
+    }
+}
+.concept-img .concept-img2{
+    background-image: url(../img/img3.png);
+    background-size: cover;
+    width: 35%;
+    margin-left: 1.1rem;
+    @include tab{
+        width: 50%;
+        margin-left: 0.7rem;
+    }
+}
+.concept-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    color: white;
+    font-family: 'Noto Serif JP', serif;
+    @include tab{
+        flex-direction: column;
+    }
+    
+}
+.concept-copy{
+    font-size: 4.2rem;
+    letter-spacing: 0.3em;
+    min-width: 44,5rem;
+    @include tab{
+        font-size: 3rem;
+    }
+    @include sp{
+        font-size: 1.8rem;
+    }
+}
+.concept-text{
+    font-size: 1.6rem;
+    width: 45%;
+    @include tab{
+        width: 100%;
+        margin-top: 1.8rem;
+    }
+}

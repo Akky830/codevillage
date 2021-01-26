@@ -1,0 +1,58 @@
+//変数//
+$ash: #A193861F;
+
+
+
+//mixin//
+@mixin pc{
+    @media screen and (min-width: 960px){
+        @content;
+    }
+}
+@mixin tab{
+    @media screen and (max-width: 959px){
+        @content;
+    }
+}
+@mixin sp{
+    @media screen and (max-width: 600px){
+        @content;
+    }
+}
+
+//共通//
+html{
+    font-size: 62.5%;  //10px ->rem//
+}
+body{
+    font-weight: bold;
+    line-height:1.6;
+}
+section{
+    display: block;
+    width: 100%;
+}
+.inner {
+    max-width: 150rem;
+    padding: 15rem 0 6.5rem;
+    margin: 0 auto;
+    width: 85%;
+}
+.title{
+    font-size: 2.4rem;
+    color: #707070;
+    font-family: "Roboto";
+    position: relative;
+    display: inline-block;
+    &:after{
+        display: inline-block;
+        content: "";
+        position: absolute;
+        width: 9.9rem;
+        height: 1px;
+        background-color: #707070;
+        margin-left: 2.2rem;
+        top: 50%;
+
+    }
+}

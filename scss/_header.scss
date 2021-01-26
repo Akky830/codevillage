@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 62px 0 0 77px;
+    position: absolute;
+    @include tab{
+        background-color: white;
+        padding: 0 20px;
+        justify-content: space-between;
+        width: 100%;
+        height: 70px;
+    } 
+    @include sp{
+        padding: 24px 21px;
+    }
+           
+}
+.header-title{
+    font-size: 3.8rem;
+    @include tab{
+        font-size: 3rem;
+    }
+    @include sp{
+        font-size: 2.2rem;
+        
+    }
+}
+#hum-menu {
+    display: none;
+    @include tab{
+        width: 20px;
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @include sp{
+        width: 16px;
+        height: 14px;
+    } 
+    span{
+        @include tab{
+            border: 1.5px solid #3B4043;
+        }
+        @include sp{
+            border: 1px solid #3B4043;
+        }
+    }
+}
+.header-nav{
+    @include tab{
+        display: none;
+    }
+}
+.header-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-nav ul li{
+    color: #707070;
+    font-size: 1.9rem;
+    margin: 0;
+    margin-left:2rem;
+    transition: 1s;
+    &:hover{
+        color: black;
+        border-bottom: 1px solid black;
+    }
+}

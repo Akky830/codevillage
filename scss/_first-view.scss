@@ -1,0 +1,54 @@
+.first-view{
+    display: block;
+}
+.catch-wrap{
+    display: flex;
+    width: 100%;
+    @include tab{
+        display: flex;
+        background-image: url(../img/img1.png);
+        background-size: cover;
+        height: 100vh;
+        
+    }
+}
+.catch-copy-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30rem;
+    width: 45%;
+    font-size: 3.8rem;
+    @include tab{
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 220px;
+    }
+}
+.catch-copy1{
+    font-family: 'Noto Serif JP', serif;
+    @include tab{
+        font-size: 2.3rem;
+        color: white;
+    }
+}
+.catch-copy2{
+    margin-top: 5.0rem;
+    font-family: "Zapfino,Regular";
+    margin-right: 40px;
+    @include tab{
+        margin-right: 0;
+        font-size: 2.8rem;
+        color: white;
+    }
+}
+.first-view-img {
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 55%;
+    @include tab{
+        display: none;
+    }
+}
