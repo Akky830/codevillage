@@ -6,21 +6,24 @@
     justify-content: space-between;
     height: 41.3rem;
     margin-top: 1.1rem;
-    @include sp{
+    @include tab{
         height: 20.5rem;
         margin-top: 5rem;
     }
     
 }
-.concept-img .concept-img1{
+.concept-img1{
     background-image: url(../img/img2.png);
     background-size: cover;
     width: 65%;
-    @include sp{
+    @include tab{
         width: 50%;
     }
+    @include sp{
+        background-position: 90%, 50%;
+    }
 }
-.concept-img .concept-img2{
+.concept-img2{
     background-image: url(../img/img3.png);
     background-size: cover;
     width: 35%;

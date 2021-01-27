@@ -319,32 +319,37 @@ header {
   height: 41.3rem;
   margin-top: 1.1rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
   .concept-img {
     height: 20.5rem;
     margin-top: 5rem;
   }
 }
 
-.concept-img .concept-img1 {
+.concept-img1 {
   background-image: url(../img/img2.png);
   background-size: cover;
   width: 65%;
 }
-@media screen and (max-width: 600px) {
-  .concept-img .concept-img1 {
+@media screen and (max-width: 959px) {
+  .concept-img1 {
     width: 50%;
   }
 }
+@media screen and (max-width: 600px) {
+  .concept-img1 {
+    background-position: 90%, 50%;
+  }
+}
 
-.concept-img .concept-img2 {
+.concept-img2 {
   background-image: url(../img/img3.png);
   background-size: cover;
   width: 35%;
   margin-left: 1.1rem;
 }
 @media screen and (max-width: 959px) {
-  .concept-img .concept-img2 {
+  .concept-img2 {
     width: 50%;
     margin-left: 0.7rem;
   }
@@ -580,6 +585,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 @media screen and (max-width: 600px) {
   .footer-wrap2 {
@@ -599,11 +605,6 @@ li {
 
 .footer-icon {
   margin-left: 2.6rem;
-}
-@media screen and (max-width: 600px) {
-  .footer-icon {
-    margin-left: 138px;
-  }
 }
 
 .size {

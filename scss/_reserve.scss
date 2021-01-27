@@ -18,6 +18,7 @@ font-family: "Roboto Mono for Powerline";
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     @include sp{
         margin-top: 60px;
     }
@@ -31,9 +32,6 @@ font-family: "Roboto Mono for Powerline";
 }
 .footer-icon{
     margin-left: 2.6rem;
-    @include sp{
-        margin-left: 138px;
-    }
 }
 .size{
     font-size: 2rem;
