@@ -354,6 +354,11 @@ header {
     margin-left: 0.7rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .concept-img2 {
+    background-position: 70%;
+  }
+}
 
 .concept-bottom {
   display: flex;

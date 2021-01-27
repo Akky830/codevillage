@@ -32,6 +32,9 @@
         width: 50%;
         margin-left: 0.7rem;
     }
+    @include sp{
+        background-position: 70%;
+    }
 }
 .concept-bottom{
     display: flex;
