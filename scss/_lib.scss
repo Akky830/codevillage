@@ -1,8 +1,6 @@
 //変数//
 $ash: #A193861F;
 
-
-
 //mixin//
 @mixin pc{
     @media screen and (min-width: 960px){
@@ -55,4 +53,17 @@ section{
         top: 50%;
 
     }
+}
+
+// トップボタン //
+.page-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+}
+.page-top img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
 }
