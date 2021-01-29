@@ -629,4 +629,66 @@ li {
   cursor: pointer;
 }
 
+.hum-nav-wrap {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-225px, -150px);
+  background-color: #e6ecf0;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  width: 45rem;
+  height: auto;
+  text-align: center;
+}
+@media screen and (max-width: 959px) {
+  .modal {
+    width: 35rem;
+    transform: translate(-175px, -150px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .modal {
+    width: 20rem;
+    transform: translate(-100px, -99px);
+  }
+}
+
+.close-modal {
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 100%;
+  text-align: right;
+}
+
+.modal-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 25px;
+  color: black;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .nav-item {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
