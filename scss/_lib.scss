@@ -63,6 +63,10 @@ section{
     z-index: 99;
     height: 65px;
     width: 65px;
+    @include sp{
+        height: 50px;
+        width: 50px;
+    }
 }
 .top-button{
     width: 100%;

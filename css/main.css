@@ -159,6 +159,12 @@ section {
   height: 65px;
   width: 65px;
 }
+@media screen and (max-width: 600px) {
+  #top-button {
+    height: 50px;
+    width: 50px;
+  }
+}
 
 .top-button {
   width: 100%;
